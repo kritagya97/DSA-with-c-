@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 int count=1;
-
+//logic for fibonacci series using recursion method
 int toh(int n,char source='S',char auxiliary='A',char destination='D'){
 if(n==1){
     cout<<"step:"<<count++<<" move disc "<< n <<" from "<<source<<" to "<<destination<<endl;
